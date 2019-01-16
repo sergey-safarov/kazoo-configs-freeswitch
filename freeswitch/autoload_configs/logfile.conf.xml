@@ -7,7 +7,8 @@
         <profile name="debug">
             <settings>
                 <param name="logfile" value="/var/log/freeswitch/kazoo-debug.log"/>
-                <param name="rollover" value="0"/>
+                <param name="rollover" value="104857600"/>
+                <param name="maximum-rotate" value="32"/>
                 <param name="uuid" value="true" />
             </settings>
             <mappings>
@@ -18,7 +19,8 @@
         <profile name="error">
             <settings>
                 <param name="logfile" value="/var/log/freeswitch/kazoo-error.log"/>
-                <param name="rollover" value="0"/>
+                <param name="rollover" value="104857600"/>
+                <param name="maximum-rotate" value="3"/>
                 <param name="uuid" value="true" />
             </settings>
             <mappings>
