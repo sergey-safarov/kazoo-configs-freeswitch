@@ -28,7 +28,7 @@
         <param name="colorize-console" value="true"/>
         <param name="mailer-app" value="sendmail"/>
         <param name="mailer-app-args" value="-t"/>
-        <param name="max-sessions" value="5000"/>
+        <param name="max-sessions" value="50000"/>
         <param name="sessions-per-second" value="200"/>
         <param name="max-dtmf-duration" value="2000"/>
         <param name="min-dtmf-duration" value="200"/>
@@ -38,7 +38,7 @@
         <!--<param name="enable-cond-yield" value="true"/>-->
         <!--<param name="enable-timer-matrix" value="true"/>-->
         <!--<param name="verbose-channel-events" value="true"/>-->
-        <!--<param name="min-idle-cpu" value="15"/>-->
+        <param name="min-idle-cpu" value="15"/>
         <!--<param name="tipping-point" value="15"/>-->
         <!--<param name="timer-affinity" value="disabled"/>-->
         <param name="rtp-start-port" value="16384"/>
