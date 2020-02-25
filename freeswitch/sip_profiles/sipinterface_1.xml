@@ -34,7 +34,6 @@
 
 
             <!-- Routing -->
-            <!--<param name="username" value="default"/>-->
             <param name="context" value="context_2"/>
             <param name="dialplan" value="XML"/>
             <!--<param name="full-id-in-dialplan" value="false"/>-->
@@ -50,6 +49,7 @@
             <!--<param name="sip-domain" value="sip.2600hz.com"/>-->
             <!--<param name="contact-user" value="sip.2600hz.com"/>-->
             <param name="user-agent-string" value="2600hz"/>
+            <param name="username" value="2600hz"/> <!-- this variable used for SDP (o= and s=) -->
             <param name="enable-100rel" value="false"/>
             <param name="max-proceeding" value="1000"/>
             <!--<param name="max-calls" value="250"/>-->
